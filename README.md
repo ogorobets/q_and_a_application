@@ -9,6 +9,6 @@
 <br />
 <strong>Running app:</strong><br />
 1. Run MongoDB<br />
-(being in MongoDB 'bin' folder enter in command line 'mongod --dbpath <path_to_project_folder\database>')<br />
+(being in MongoDB 'bin' folder enter in command line 'mongod --dbpath _path_to_project_folder\database_')<br />
 2. Go to node_modules\express folder<br />
 3. Enter 'node index.js' in command line<br />
