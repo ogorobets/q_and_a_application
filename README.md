@@ -3,7 +3,7 @@
 <strong>Prerequisites:</strong><br />
 1. MongoDB<br />
 <br />
-Intallation of the app:<br />
+<strong>Intallation of the app:</strong><br />
 1. Go to project root folder<br />
 2. Enter 'grunt auto_intall' in command line<br />
 <br />
