@@ -1,4 +1,19 @@
 #Project info<br />
+<strong>Project description:</strong><br />
+<p>
+This projects is Q&A application (similar to http://stackoverflow.com/).
+</p>
+<p>
+Some part of functionality implemented in the app for now:<br />
+- authentication and authorisation aren't needed for now,<br />
+- identification of user is made by username,<br />
+- a user should be able to see: 1) list of all questions; 2) list of unanswered questions;
+3) list of answered questions, <br />
+- a user should be able to see a question with all its answers on a separate page,<br />
+- a user should be able to ask a question,<br />
+- a user should be able to write an answer for any question,<br />
+Amount of answers made by a user for the same question is not limited.
+</p>
 <br />
 <strong>Prerequisites:</strong><br />
 1. MongoDB<br />
