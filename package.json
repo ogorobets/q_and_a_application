@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "cd node_modules/express/tests && karma start"
   },
   "author": "",
   "license": "ISC",
@@ -17,9 +17,8 @@
     "jasmine-core": "^2.3.4",
     "karma": "^0.13.9",
     "karma-chrome-launcher": "^0.2.0",
-    "karma-jasmine": "^0.3.6"
-  },
-  "scripts": {
-    "test": "cd node_modules/express/tests && karma start"
+    "karma-jasmine": "^0.3.6",
+    "karma-phantomjs-launcher": "^0.2.1",
+    "phantomjs": "^1.9.18"
   }
 }
