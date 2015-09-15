@@ -14,7 +14,6 @@ Some part of functionality implemented in the app for now:<br />
 - a user should be able to write an answer for any question,<br />
 Amount of answers made by a user for the same question is not limited.
 </p>
-<br />
 <strong>Prerequisites:</strong><br />
 1. MongoDB<br />
 <br />

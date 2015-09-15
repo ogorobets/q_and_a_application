@@ -11,6 +11,14 @@ module.exports = function(grunt) {
             },
             subdir_2: {
                 options: {
+                    cwd: '',
+                    stdout: true,
+                    stderr: true,
+                    failOnError: true,
+                }
+            },
+            subdir_3: {
+                options: {
                     cwd: 'node_modules/express/public/',
                     stdout: true,
                     stderr: true,

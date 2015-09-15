@@ -5,3 +5,7 @@ Thumbs.db
 *.zip
 .idea
 
+node_modules/jasmine-core
+node_modules/karma
+node_modules/karma-chrome-launcher
+node_modules/karma-jasmine
