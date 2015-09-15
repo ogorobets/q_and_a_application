@@ -11,3 +11,4 @@ node_modules/karma-chrome-launcher
 node_modules/karma-jasmine
 node_modules/phantomjs
 node_modules/karma-phantomjs-launcher
+node_modules/grunt-karma

@@ -26,7 +26,16 @@ module.exports = function(grunt) {
                 }
             }
         },
+        karma: {
+            unit: {
+                configFile: 'node_modules/express/tests/karma.conf.js',
+                singleRun: true,
+                browsers: ['PhantomJS'],
+            }
+        },
     });
 
     grunt.loadNpmTasks('grunt-auto-install');
+    grunt.loadNpmTasks('grunt-karma');
+    grunt.registerTask('default', ['auto_install', 'karma']);
 }
