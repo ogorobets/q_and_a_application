@@ -20,6 +20,6 @@
     "karma-jasmine": "^0.3.6"
   },
   "scripts": {
-    "test": "karma start"
+    "test": "./node_modules/express/tests/karma start"
   }
 }
