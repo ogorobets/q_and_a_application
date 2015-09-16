@@ -4,8 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "grunt karma"
+    "test": "grunt karma",
+    "start": "npm install -g bower grunt-cli && grunt auto_install && node node_modules/express/index.js"
   },
+  "main": "node_modules/express/index.js",
   "author": "",
   "license": "ISC",
   "dependencies": {
