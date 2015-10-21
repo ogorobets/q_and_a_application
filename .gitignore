@@ -12,3 +12,5 @@ node_modules/karma-jasmine
 node_modules/phantomjs
 node_modules/karma-phantomjs-launcher
 node_modules/grunt-karma
+node_modules/brfs
+node_modules/karma-browserify
